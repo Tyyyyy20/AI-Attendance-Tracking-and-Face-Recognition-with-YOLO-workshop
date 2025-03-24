@@ -49,8 +49,8 @@ elif option == "Live Camera":
     st.subheader("Live Camera")
     st.write("Click start Camera to start live tracking")
 
-    start = st.button("Start Camera")
-    stop = st.button("Stop Camera")
+start = st.button("Start Camera")
+stop = st.button("Stop Camera")
 
 if start:
     cap = cv2.VideoCapture(0)
